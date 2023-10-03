@@ -51,3 +51,29 @@ body {
       font-size: 3.5rem;
     }
   }
+
+  .my-logo{
+    mix-blend-mode: multiply;
+    /* width: -webkit-fill-available; */
+    width: 200px;
+    height: 200px;
+  }
+  .copyRight{
+          background-image: url(../images/pexels-steve-johnson-1045299.jpg);
+        
+
+            background-repeat: repeat;
+    background-clip: text;
+    background-size: cover;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+    font-size: 36px;
+    
+    font-weight: bold;
+    text-transform: uppercase;
+ 
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+  }
