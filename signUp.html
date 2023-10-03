@@ -38,20 +38,20 @@
   <body class="text-center">
     
 <main class="form-signin">
-  <form>
+  <form action="/" method="post">
     <img class="mb-4 my-logo" src="images/logo.png" alt="" >
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
     <div class="form-floating mb-2">
-      <input type="text" class="form-control" id="InputFname" placeholder="FirstName">
+      <input type="text" class="form-control" id="InputFname" name="fname" placeholder="FirstName">
       <label for="InputFname">FirstName</label>
     </div>
     <div class="form-floating mb-2">
-        <input type="text" class="form-control" id="InputLname" placeholder="LastName">
+        <input type="text" class="form-control" id="InputLname" name="lname" placeholder="LastName">
         <label for="InputLname">LastName</label>
       </div>
     <div class="form-floating mb-2">
-       <input type="email" class="form-control" id="floatingemail" placeholder="name@example.com">
+       <input type="email" class="form-control" id="floatingemail" name="email" placeholder="name@example.com">
        <label for="floatingemail">Email address</label>
     </div>
 
